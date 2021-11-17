@@ -1,0 +1,19 @@
+"""
+
+1) What is $_ ?
+
+- $_ is a variable created by the system in block expressions
+
+2) How many Output Streams are in Powershell ?
+
+The answer is 7 (success, error, warning, verbose, debug, information and progress)
+
+3) What is the difference between Write-Host vs Write-Output, Write-Error, Write-Warning, Write-Debug ?
+
+Write-output outputs the information to the pipeline while write-host does that directly to the console
+which makes Write-output be available to be assigned to a variable or used again in another cmdlet.
+Write-Error - lets you declare an error of your choice (similar to try except in python)
+Write-Warning - can edit warning messages and warning preference to take action accordingly
+Write-Debug - can edit debug messages and preferences whether to continue, stop, etc.
+
+"""
